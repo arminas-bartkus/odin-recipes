@@ -3,45 +3,68 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
 div .links { 
     color: rgb(146, 5, 5);
-    margin: 20px auto;
-    display: block;
-    text-align: center;
     background-color: aliceblue;
     border: solid pink 3px;
+
+    margin: 20px auto;
     padding: 10px 0px;
     width: 350px;
     font-size: 18px;
+
+    display: block;
+    text-align: center;
+
 }
 
 .title {
     color: rgb(146, 5, 5);
-
     background-color: rgb(252, 201, 33);
+
+
     border: solid  5px;
     padding-top: 5px;
     padding-bottom: 5px;
+
     width: 450px;
     text-align: center;
     margin: 20px auto;
+   
 }
 
 img {
     border: solid 15px;
-    display: block;
-    margin: 0px auto;
-    height: 400px;
     padding: 30px;
+    
+    margin: 0px auto;
+
+
+    display: flex;
+    flex: 1 1 500px;
+
+    min-height: 0px;
+    min-width: 0px;
+
+    max-height: 500px;
+
 }
 
 .subheading {
     background-color: rgb(146,5 ,5);
     color: rgb(252, 201, 33);
+    border: solid rgb(252, 201, 33) 4px;
+
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
-    border: solid rgb(252, 201, 33) 4px;
+
     margin-top: 35px;
 
 }
